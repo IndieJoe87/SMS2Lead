@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@eslint/config-array": "^0.19.1",
     "@eslint/object-schema": "^2.1.5",
     "@hookform/resolvers": "^3.10.0",
     "@radix-ui/react-dialog": "^1.0.5",
@@ -18,6 +19,7 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "framer-motion": "^10.16.4",
+    "glob": "^11.0.1",
     "lucide-react": "^0.290.0",
     "next": "^15.1.6",
     "react": "^18.2.0",
@@ -36,7 +38,7 @@
     "@types/react": "^18.2.31",
     "@types/react-dom": "^18.2.14",
     "autoprefixer": "^10.4.16",
-    "eslint": "^8.56.0",
+    "eslint": "^9.19.0",
     "eslint-config-next": "^14.1.0",
     "next-sitemap": "^4.2.3",
     "postcss": "^8.4.31",
