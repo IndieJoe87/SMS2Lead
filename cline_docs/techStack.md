@@ -39,10 +39,11 @@
   - JSDoc comments
 
 ### Deployment & Infrastructure
-- **Platform**: Vercel (primary)
-- **CDN**: WebWerkMitte CDN (webwerkmitte.b-cdn.net)
-- **Build System**: Next.js build system
-- **CI/CD**: Vercel's built-in CI/CD pipeline
+- **Platform**: Replit
+- **Environment**: Node.js
+- **Build System**: Next.js built-in
+- **Static Files**: Served via Next.js
+- **Asset Optimization**: Sharp for images
 
 ### Security & Compliance
 - **SSL/TLS**: Automatic HTTPS
@@ -61,3 +62,56 @@
 - **TailwindCSS**: Rapid UI development with utility-first approach
 - **TypeScript**: Type safety and enhanced developer experience
 - **Vercel**: Optimal platform for Next.js deployment with built-in analytics and edge functions
+
+### Performance Optimizations
+- Server-side rendering
+- Static site generation where applicable
+- Image optimization
+- Font optimization
+- Bundle size optimization
+
+### SEO
+- Dynamic meta tags
+- JSON-LD structured data
+- Sitemap generation
+- Robots.txt configuration
+
+### Development Environment
+- VS Code recommended
+- Git for version control
+- npm for package management
+
+### Build and Deployment Process
+1. Development:
+   ```bash
+   npm run dev
+   ```
+
+2. Production Build:
+   ```bash
+   npm run build
+   ```
+
+3. Production Start:
+   ```bash
+   npm start
+   ```
+
+### Configuration Files
+- `next.config.js`: Next.js configuration
+- `tailwind.config.js`: TailwindCSS configuration
+- `postcss.config.js`: PostCSS configuration
+- `.replit`: Replit deployment configuration
+- `package.json`: Project dependencies and scripts
+
+### Browser Support
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+
+### Performance Targets
+- Lighthouse Score: 90+
+- First Contentful Paint: <1s
+- Time to Interactive: <2s
+- Core Web Vitals: Pass
