@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://sms2lead.de
+
+# Sitemaps
+Sitemap: https://sms2lead.de/sitemap.xml
